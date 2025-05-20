@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+    
+    <style>
+        body {
+            padding: 3%;
+            background-color: rosybrown;
+            text-align: center;
+        }
+
+        input {
+            background-color: transparent;
+            height: 50px;
+            width: 230px;
+            border: solid 3px white;
+            outline: none;
+            color: white;
+            font-size: 25px;
+            font-family: georgia;
+            border-radius: 3%;
+        }
+
+        button {
+            height: 95px;
+            width: 95px;
+            border: solid 2px red;
+            outline: none;
+            color: white;
+            font-size: 20px;
+            font-family: georgia;
+            border-radius: 50%;
+            background-color: orangered;
+        }
+
+        form {
+            border: solid 3px white;
+            border-radius: 2%;
+            padding: 2%;
+        }
+
+        h1 {
+            font-family: georgia;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="excluir.php" method="POST">
+        <h1>exclua seus dados</h1>
+        <input type="number" name="id" placeholder="Seu ID"><br><br>
+        <br>
+
+        <button type="submit">excluir</button>
+    </form>
+   
+</body>
+</html>
